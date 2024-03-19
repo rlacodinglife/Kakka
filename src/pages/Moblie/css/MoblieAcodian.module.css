@@ -105,6 +105,7 @@ ul#mobilemenu_list>li{
     height:55px; 
     font:normal 14px/55px "NanumBarunGothic"; 
     border-bottom:solid 1px #E3E3E3; 
+    color: black;
     box-sizing:border-box; 
     text-indent:30px; 
     position:relative; 
@@ -147,6 +148,7 @@ ul.mobilesubmenu_list>li{
     border-bottom:solid 1px #E3E3E3; 
     box-sizing:border-box; 
     text-indent:40px; 
+    color: black;
 }
 ul.mobilesubmenu_list>li:first-child{
     border-top:solid 1px #E3E3E3; 
