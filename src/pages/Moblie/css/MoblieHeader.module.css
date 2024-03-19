@@ -1,0 +1,127 @@
+header {
+    width: 100%;
+    height: auto;
+    background-color: #F2F6F7;
+}
+
+header>h2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 2%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+h2>img {
+    width: 5%;
+   
+}
+
+h2>span {
+    font: bold 1em "Noto Sans Kr";
+    color: #000000;
+}
+h2>svg {
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    width: 30px;height: 30px;
+    color: #000000;
+    
+    
+}
+div.search_box {
+    width: 75%;
+    margin: 0px auto;
+    height: 50px;
+}
+
+div.search_box>form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position:relative;
+    left: 0px;
+    top: 0px;    
+    
+}
+
+div.search_box>form>input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 1em;
+
+}
+div.search_box>form>input::placeholder{
+    color: #5C5C5C;
+    font: bold 1em "Noto Sans Kr";
+    text-indent: 1em;
+}
+
+
+button.search_btn{
+    width: 10%;
+
+    position: absolute;
+
+
+    right: 10%;
+    top: 20%;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    
+}
+button.search_btn>svg{
+    width:2em;
+    height: 2em;
+}
+
+
+
+/* status */
+div.homestate_wrap {
+    width: 100%;
+    min-height: auto;
+    position: relative;
+
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: #F2F6F7;
+}
+
+
+section.homestate {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+
+
+}
+
+section.homestate>ul {
+    width: 100%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    color: #808080;
+}
+/* p.categorylist{
+text-align: center;
+font-size: 1em;
+} */
+/* 
+section.brandstate>ul>li>img{
+    width: 100%;
+    height: 50px;
+} */
+
+.selected {
+    border-bottom: soild 3px black;
+    color: black;
+}

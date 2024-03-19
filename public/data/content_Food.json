@@ -1,0 +1,35 @@
+[
+    {
+        "id": "001",
+        "category": "맛집",
+        "place": "부산",
+        "image": "/image/EatContent/EatContent_01.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "002",
+        "category": "맛집",
+        "place": "서울",
+        "image": "/image/EatContent/EatContent_02.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "003",
+        "category": "맛집",
+        "place": "광주",
+        "image": "/image/EatContent/EatContent_03.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "004",
+        "category": "맛집",
+        "place": "울산",
+        "image": "/image/EatContent/EatContent_04.png",
+        "text": "",
+        "isbest":true
+    }
+
+]

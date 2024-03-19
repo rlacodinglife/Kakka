@@ -1,0 +1,440 @@
+[
+    {
+        "id": "001",
+        "category": "여행",
+        "place": "경주",
+        "image": "/image/Subpage/submain.png",
+        "text": "대릉원지구",
+        "isbest": true,
+        "path": "",
+        "name": "경주 대릉원",
+        "title": "신라시대 왕과 귀족들의 고분군",
+        "time": "09:00~18:00",
+        "when": "연중무휴",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경상북도 경주시 첨성로",
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "002",
+        "category": "공연/전시",
+        "place": "분당",
+        "image": "/image/Brand/list/art02.png",
+        "text": "세텍펫페어",
+        "isbest": true,
+        "path": "",
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "003",
+        "category": "공연/전시",
+        "place": "진주",
+        "image": "/image/Brand/list/art03.png",
+        "text": "남강유등축제",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+
+        
+    },
+    {
+        "id": "004",
+        "category": "축제/행사",
+        "place": "서울",
+        "image": "/image/Brand/list/fest01.png",
+        "text": "스폰지밥팝업",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "005",
+        "category": "축제/행사",
+        "place": "광양",
+        "image": "/image/Brand/list/fest02.png",
+        "text": "광양매화축제",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "006",
+        "category": "축제/행사",
+        "place": "남원",
+        "image": "/image/Brand/list/fest03.png",
+        "text": "지리산 고로쇠축제",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "007",
+        "category": "맛집",
+        "place": "서울",
+        "image": "/image/Brand/list/food01.png",
+        "text": "맛있는 피자",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "008",
+        "category": "맛집",
+        "place": "부산",
+        "image": "/image/Brand/list/food02.png",
+        "text": "이가네 떡볶이",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "009",
+        "category": "맛집",
+        "place": "전주",
+        "image": "/image/Brand/list/food03.png",
+        "text": "라면먹고갈래?",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "010",
+        "category": "맛집",
+        "place": "나주",
+        "image": "/image/Brand/list/food04.png",
+        "text": "나주한상한정식",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "나주 토종 한정식",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "전라남도 나주시",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "011",
+        "category": "상품",
+        "place": "천북",
+        "image": "/image/Brand/list/gift01.png",
+        "text": "개화예술공원",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "식물원, 카페, 잡화점이있는",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "012",
+        "category": "상품",
+        "place": "서울",
+        "image": "/image/Brand/list/gift02.png",
+        "text": "국립중앙박물관",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "국립중앙박물관 굿즈",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "서울특별시 용산구 이촌동",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "013",
+        "category": "상품",
+        "place": "제주",
+        "image": "/image/Brand/list/gift03.png",
+        "text": "한라봉문화마을",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "한라봉테마파크 굿즈샵",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "014",
+        "category": "여행",
+        "place": "광양",
+        "image": "/image/Brand/list/tour01.png",
+        "text": "광양매화축제",
+        "isbest": true,
+
+
+
+
+        "name": "세텍 펫페어",
+        "title": "전국 최대의 펫페어",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "경기도 성남시 분당구",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "015",
+        "category": "여행",
+        "place": "포항",
+        "image": "/image/Brand/list/tour02.png",
+        "text": "포항 스페이스워크",
+        "isbest": true,
+
+
+
+
+        "name": "포항 스페이스워크",
+        "title": "과학적인 스페이스워크 걸어보자",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "포항시 ",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "016",
+        "category": "여행",
+        "place": "강릉",
+        "image": "/image/Brand/list/tour03.png",
+        "text": "강릉항 애견동반카페",
+        "isbest": true,
+
+
+
+
+        "name": "강릉항 카페",
+        "title": "바다전망 애견동반카페",
+        "time": "09:00~18:00",
+        "when": "주말",
+        "pageurl": "wwww.naver.com",
+        "detailplace": "강원도 강릉시",
+
+
+        "intro": "어쩌구어쩌구",
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    },
+    {
+        "id": "017",
+        "category": "여행",
+        "place": "대구",
+        "image": "/image/tourContent/tourContent_01.png",
+        "text": "김광석거리",
+        "isbest": true
+    }
+]

@@ -1,0 +1,40 @@
+[
+   
+    {
+        "id": "001",
+        "category": "여행",
+        "place": "대구",
+        "image": "/image/tourContent/tourContent_01.png",
+        "text": "김광석거리",
+        "isbest":true,
+        "path":""
+    },
+    
+    {
+        "id": "002",
+        "category": "여행",
+        "place": "서울",
+        "image": "/image/tourContent/tourContent_02.png",
+        "text": "광장시장",
+        "isbest":true,
+        "path":""
+    },
+    {
+        "id": "003",
+        "category": "여행",
+        "place": "안동",
+        "image": "/image/tourContent/tourContent_03.png",
+        "text": "하회마을",
+        "isbest":true,
+        "path":""
+    },
+    {
+        "id": "004",
+        "category": "여행",
+        "place": "경주",
+        "image": "/image/tourContent/tourContent_04.png",
+        "text": "첨성대",
+        "isbest":true,
+        "path":"/brand:subpageID"
+    }
+]

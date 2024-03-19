@@ -1,0 +1,134 @@
+div.search_wrap {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #F2F6F7;
+
+
+}
+
+section.search {
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+
+}
+
+div.search_left {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.search_left>p.search {
+    width: 100%;
+    height: 20%;
+    font: normal 2em "Noto Sans Kr";
+}
+
+ul.select_wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 35%;
+    box-sizing: border-box;
+
+}
+
+ul.select_wrap>li {
+    width: 100%;
+    height: auto;
+}
+
+ul.select_wrap>li>select {
+    width: 100%;
+    height: 50px;
+}
+
+ul.select_wrap>li>input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+div.search_left>button {
+    width: 50%;
+    height: 50px;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    border: none;
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #2427A5;
+    color: #FFFFFF;
+    font: normal 1em "Noto Sans Kr";
+
+
+}
+
+
+
+
+
+
+
+div.search_right {
+    width: 65%;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+div.search_right>img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.search_r_wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+div.search_r_wrap>button {
+    width: 5%;
+    height: auto;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font: bold 1.25em/1.8em "Noto Sans Kr";
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:1260px) {
+    section.search {
+        width: 75%;
+    }
+
+    div.search_wrap {
+        font-size: 14px;
+    }
+}

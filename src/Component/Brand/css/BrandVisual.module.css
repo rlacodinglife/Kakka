@@ -1,0 +1,111 @@
+/* 비주얼영역 */
+div.visual_wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #DDDDDD;
+}
+.hidden {
+    width: 1px;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    position: absolute;
+
+}
+section.visual {
+    width: 100%;
+    height: auto;
+}
+
+ul.visual_list {
+    width: 100%;
+    height: auto;
+}
+
+ul.visual_list>li {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    /* position: absolute;에서 변경 */
+}
+
+div.visual_text {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+
+div.blackboard{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.452);
+    
+}
+
+
+
+p.text_top {
+    font-size: 60px;
+    line-height: 150%;
+}
+
+p.text_btm {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+p.text_sub {
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+
+ul.visual_list>li:nth-child(1) {
+    background: url(/public/image/BrandvisualWrap.png) no-repeat center center;
+    background-size: cover;
+    display: block;
+  
+}
+
+button.left_btn{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+}
+button.right_btn{
+    width: 50px;
+    height: 50px;
+    background:  rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 350px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+

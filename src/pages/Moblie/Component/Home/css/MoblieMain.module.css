@@ -1,0 +1,162 @@
+/* status */
+/* 
+
+div.homestate_wrap {
+    width: 100%;
+    min-height: auto;
+    position: relative;
+
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background: #F2F6F7;
+}
+
+
+section.homestate {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+
+
+}
+
+section.homestate>ul {
+    width: 100%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    color: #808080;
+} */
+
+
+/* .selected {
+    border-bottom: soild 3px black;
+    color: black;
+} */
+
+/* visual */
+/* div.visual_wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+
+    background-color: #F2F6F7;
+}
+
+section.visual {
+    width: 100%;
+    height: 150px;
+} */    
+/* 
+
+ul.visual_img {
+    width: 300%;
+    height: auto;
+
+}
+
+ul.visual_img>li {
+    width: 100%;
+    height: 150px;
+    margin: 0px auto;
+    position: absolute;
+}
+
+ul.visual_img>li>img {
+    width: 100%;
+    height: auto;
+}
+
+p.visual_title {
+    padding: 2%;
+    box-sizing: border-box;
+
+    width: 50%;
+
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 20px;
+}
+ */
+
+section.bestfesti {
+    width: 100%;
+    height: auto;
+}    
+
+
+
+
+
+
+div.bestfesti {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: #FFF2FE;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+div.tour{
+    background: #FFE4FC;
+}
+
+section.bestfesti{
+    width: 100%;
+    height: auto;
+}
+
+ul.bestfesti_img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    overflow: hidden;
+    padding: 2% 0;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+
+
+
+li.festiimg {
+    width: 100%;
+    height: 100px;
+
+}
+
+li.festiimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+div.besttext_wrap{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+div.besttext_wrap>p.besttext_red{
+    font: bold 0.75em "Noto Sans Kr";
+    color: red;
+}
+div.besttext_wrap>p.besttext_black{
+    font: bold 1em "Noto Sans Kr";
+}
+
+

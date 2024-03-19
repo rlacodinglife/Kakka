@@ -1,0 +1,158 @@
+div.brandlist_wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+    background: #F2F6F7;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+section.brandlist {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+ul.brandcontents {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* 4개의 컬럼으로 설정 */
+    grid-gap: 10px;
+    /* 그리드 사이의 간격 */
+
+}
+
+/* 
+ul.brandcontents>li{
+} */
+
+li.content {
+    width: 100%;
+    height: auto;
+    /* float: left;
+    margin-right: 2%;
+    margin-bottom: 50px; */
+
+    position: relative;
+
+}
+
+.content_img {
+    width: 100%;
+    height: 100%;
+}
+
+.backgrad {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+div.content_textwrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    color: #dddddd;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+p.content_place{
+    font-size: 1.5em;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 0px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background:  rgba(0, 0, 0, 0.49);
+}
+
+p.content_title {
+    font-size: 1em;
+}
+
+p.content_text {
+    font-size: 1.75em;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: #dddddd;
+    background-color: rgba(0, 0, 0, 0.49);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+div.brandstate_wrap {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+
+    padding: 50px 0px;
+    box-sizing: border-box;
+    background: #F2F6F7;
+}
+
+
+section.brandstate{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+    
+
+}
+section.brandstate>ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+p.categorylist{
+text-align: center;
+font-size: 1em;
+}
+
+section.brandstate>ul>li>img{
+    width: 100%;
+    height: 50px;
+}
+
+.selected{
+    border-bottom: soild 3px black;
+}
+
+@media screen and (max-width:1260px) {
+    section.brandstate{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    section.brandlist {
+        width: 75%;
+    }
+    div.brandlist_wrap{
+        font-size: 14px;
+    }
+}

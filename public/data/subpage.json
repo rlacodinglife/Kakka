@@ -1,0 +1,28 @@
+[
+    {
+        "id": "001",
+        "category": "여행",
+        "place": "경주",
+        "image": "/image/Subpage/submain.png",
+        "name": "경주 대릉원",
+        "title":"신라시대 왕과 귀족들의 고분군",
+        "time":"09:00~18:00", "when":"연중무휴",
+        "pageurl":"wwww.naver.com",
+
+
+
+
+        "isbest": true,
+        "path": "/brand:subpageID",
+        "detailplace":"경상북도 경주시 첨성로",
+        
+
+
+        "image1": "/image/Subpage/sub1.png",
+        "text1": "대릉원 일대",
+        "image2": "/image/Subpage/sub2.png",
+        "text2": "첨성대 핑크뮬리",
+        "image3": "/image/Subpage/sub3.png",
+        "text3": "대릉원 야경 전경"
+    }
+]

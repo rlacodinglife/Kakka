@@ -1,0 +1,138 @@
+[
+   
+    {
+        "id": "001",
+        "category": "여행",
+        "place": "대구",
+        "image": "/image/tourContent/tourContent_01.png",
+        "text": "김광석거리",
+        "isbest":true
+    },
+    
+    {
+        "id": "002",
+        "category": "여행",
+        "place": "서울",
+        "image": "/image/tourContent/tourContent_02.png",
+        "text": "광장시장",
+        "isbest":true
+    },
+    {
+        "id": "003",
+        "category": "여행",
+        "place": "안동",
+        "image": "/image/tourContent/tourContent_03.png",
+        "text": "하회마을",
+        "isbest":true
+    },
+    {
+        "id": "004",
+        "category": "여행",
+        "place": "경주",
+        "image": "/image/ tourContent/tourContent_04.png",
+        "text": "첨성대",
+        "isbest":true
+    },
+   
+    {
+        "id": "005",
+        "category": "맛집",
+        "place": "부산",
+        "image": "/image/EatContent/EatContent_01.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "006",
+        "category": "맛집",
+        "place": "서울",
+        "image": "/image/EatContent/EatContent_02.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "007",
+        "category": "맛집",
+        "place": "광주",
+        "image": "/image/EatContent/EatContent_03.png",
+        "text": "",
+        "isbest":true
+    },
+    {
+        "id": "008",
+        "category": "맛집",
+        "place": "울산",
+        "image": "/image/EatContent/EatContent_04.png",
+        "text": "",
+        "isbest":true
+    },
+    
+    
+    {
+        "id": "009",
+        "category": "축제/행사",
+        "place": "분당",
+        "image": "/image/FTContent/FTContent_01.png",
+        "text": "케이펫페어(세택)",
+        "isbest":true
+    },
+    {
+        "id": "010",
+        "category": "축제/행사",
+        "place": "서울",
+        "image": "/image/FTContent/FTContent_02.png",
+        "text": "일루미나이트",
+        "isbest":true
+    },
+    {
+        "id": "011",
+        "category": "축제/행사",
+        "place": "남원",
+        "image": "/image/FTContent/FTContent_03.png",
+        "text": "지리산 뱀사골 고로쇠축제",
+        "isbest":true
+    },
+    {
+        "id": "012",
+        "category": "축제/행사",
+        "place": "광양",
+        "image": "/image/FTContent/FTContent_04.png",
+        "text": "광양매화축제",
+        "isbest":true
+    }]
+
+
+
+
+
+    
+    // ,{
+    //     "id": "013",
+    //     "category": "축제/행사",
+    //     "place": "광양",
+    //     "image": "/image/FTContent/FTContent_04.png",
+    //     "text": "광양매화축제",
+    //     "isbest":true
+    // },{
+    //     "id": "014",
+    //     "category": "축제/행사",
+    //     "place": "광양",
+    //     "image": "/image/FTContent/FTContent_04.png",
+    //     "text": "광양매화축제",
+    //     "isbest":true
+    // },{
+    //     "id": "015",
+    //     "category": "축제/행사",
+    //     "place": "광양",
+    //     "image": "/image/FTContent/FTContent_04.png",
+    //     "text": "광양매화축제",
+    //     "isbest":true
+    // },{
+    //     "id": "016",
+    //     "category": "축제/행사",
+    //     "place": "광양",
+    //     "image": "/image/FTContent/FTContent_04.png",
+    //     "text": "광양매화축제",
+    //     "isbest":true
+    // }
+

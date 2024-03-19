@@ -1,0 +1,35 @@
+[
+    {
+        "id": "001",
+        "category": "축제/행사",
+        "place": "분당",
+        "image": "/image/FTContent/FTContent_01.png",
+        "text": "케이펫페어(세택)",
+        "isbest":true
+    },
+    {
+        "id": "002",
+        "category": "축제/행사",
+        "place": "서울",
+        "image": "/image/FTContent/FTContent_02.png",
+        "text": "일루미나이트",
+        "isbest":true
+    },
+    {
+        "id": "003",
+        "category": "축제/행사",
+        "place": "남원",
+        "image": "/image/FTContent/FTContent_03.png",
+        "text": "지리산 뱀사골 고로쇠축제",
+        "isbest":true
+    },
+    {
+        "id": "004",
+        "category": "축제/행사",
+        "place": "광양",
+        "image": "/image/FTContent/FTContent_04.png",
+        "text": "광양매화축제",
+        "isbest":true
+    }
+
+]

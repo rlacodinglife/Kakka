@@ -1,0 +1,146 @@
+div.search_wrap {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #F2F6F7;
+    padding: 5% 0;
+    box-sizing: border-box;
+
+}
+
+section.search {
+    width: 100%;
+    padding: 0px 2%;
+    box-sizing: border-box;
+    height: auto;
+    margin: 0px auto;
+
+}
+
+div.search_left {
+    width: 30%;
+    height: 250px;
+    float: left;
+    padding-top: 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.search_left>p.search {
+    width: 100%;
+    height: 20%;
+    font: normal 1em "Noto Sans Kr";
+}
+div.search_left>p.search>span{
+    font-weight: bold;
+}
+
+ul.select_wrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    padding-top: 30%;
+    box-sizing: border-box;
+
+}
+
+ul.select_wrap>li {
+    width: 100%;
+    height: auto;
+}
+
+ul.select_wrap>li>select {
+    width: 100%;
+    height: 2em;
+    font-size: 0.75em;
+}
+
+ul.select_wrap>li>select>option{
+    font-size: 0.75em;
+}
+
+ul.select_wrap>li>input {
+    width: 100%;
+    height: 2em;
+    box-sizing: border-box;
+    font-size: 0.87em;
+}
+
+div.search_left>button {
+    width: 70%;
+    height: 2em;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    border: none;
+    position: relative;
+    left: 20%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #2427A5;
+    color: #FFFFFF;
+    font: normal 0.75em "Noto Sans Kr";
+
+
+}
+
+
+
+
+
+
+
+div.search_right {
+    width: 65%;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+div.search_right>img {
+    width: 100%;
+    height: 250px;
+
+}
+
+div.search_r_wrap {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+div.search_r_wrap>button {
+    width: 5%;
+    height: auto;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font: bold 0.75em "Noto Sans Kr";
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* 
+@media screen and (max-width:1260px) {
+    section.search {
+        width: 75%;
+    }
+
+    div.search_wrap {
+        font-size: 14px;
+    }
+} */
