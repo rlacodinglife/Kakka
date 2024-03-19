@@ -1,5 +1,4 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getProducts } from '../api/firebase'
 
 export default function BrandList_All() {

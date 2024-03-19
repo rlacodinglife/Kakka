@@ -3,10 +3,8 @@ import { useParams } from 'react-router-dom';
 import SubpageVisual from '../Component/Subpage/SubpageVisual'
 import style from '../Component/Subpage/css/SubpageIntro.module.css'
 import { MdPlace } from "react-icons/md";
-import BrandList_All from '../Hooks/BrandList_All';
 import { useEffect, useState } from 'react';
 import { getProductDetail } from '../api/firebase';
-import axios from 'axios';
 
 
 export default function Subpage() {

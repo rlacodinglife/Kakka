@@ -2,7 +2,7 @@
 import BrandVisual from '../Component/Brand/BrandVisual'
 import BrandList from '../Component/Brand/BrandList'
 
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function Brand() {
   // const initcategory = [

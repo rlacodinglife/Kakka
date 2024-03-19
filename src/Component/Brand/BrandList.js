@@ -3,7 +3,7 @@ import style from './css/BrandList.module.css'
 
 
 import BrandList_All from '../../Hooks/BrandList_All'
-import { v4 as uuidv4 } from 'uuid';
+
 import BrandProduct from './BrandProduct';
 
 
@@ -35,7 +35,7 @@ export default function BrandList() {
         },
     ]
 
-    const [categorys, setcategorys] = useState(initcategory)
+    const [categorys] = useState(initcategory)
 
     const [changecate, setchangecate] = useState('전체')
 
@@ -97,7 +97,7 @@ export default function BrandList() {
                                     <li onClick={() => {
                                         onchangecategory(item.category)
                                     }} className={item === changecate && style.selected}>
-                                        <img src={item.btnimage} />
+                                        <img src={item.btnimage} alt=''/>
                                         <p className={style.categorylist}>
                                             {item.category}
                                         </p>

@@ -1,14 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './pages/Header';
-// import Visual from './Component/Home/Visual';
-// import Content from './Component/Home/Content';
-// import { useEffect, useState } from 'react';
-// import axios from 'axios';
-// import Content_MT from './Component/Home/Content_MT';
 import Home from './pages/Home';
-import Footer from './pages/Footer';
-import DarkModeProvider from './Context/DarkModeContext';
 import Brand from './pages/Brand';
 import Root from './pages/Root';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';

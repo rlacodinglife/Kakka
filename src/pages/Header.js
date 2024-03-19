@@ -30,7 +30,7 @@ export default function Header() {
     const grayLayer = useRef()
 
     const Mainmenu=useRef()
-    const subMenuList=useRef()
+    // const subMenuList=useRef()
 
 
     useEffect(() => {
@@ -94,7 +94,7 @@ const showSubMenu=()=>{
     }
     ]
 
-    const [menus, setmenu] = useState(init)
+    const [menus] = useState(init)
 
     const [selectmenu, setselectmenu] = useState('')
 

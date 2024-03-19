@@ -50,7 +50,7 @@ export default function MoblieHeader() {
     <>
       <header className={style.moblieheader_wrap}>
         <h2 className={style.logo}>
-          <img src='/image/logo1.svg' />
+          <img src='/image/logo1.svg' alt=''/>
           <span>Kakka</span>
           <IoMdMenu ref={menuBtn} onClick={menuOpen} />
         </h2>

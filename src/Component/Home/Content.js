@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+
 import style from './css/Content.module.css'
-import axios from 'axios'
+
 import TourContent from '../../Hooks/Content_Tour'
 import Content_Food from '../../Hooks/Content_Food'
 import Content_Fesi from '../../Hooks/Content_Fesi'

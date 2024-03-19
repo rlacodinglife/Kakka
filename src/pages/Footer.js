@@ -1,7 +1,5 @@
 import React from 'react'
 import style from './css/Footer.module.css'
-import { useContext } from 'react'
-import { DarkModeContext } from '../Context/DarkModeContext'
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBars, faUserPlus,faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";

@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Content from '../Component/Home/Content'
 import Visual from '../Component/Home/Visual'
-import Content_MT from '../Component/Home/Content_MT'
-import axios from 'axios'
-import Content_Search from '../Component/Home/Content_Search'
+import ContentMT from '../Component/Home/ContentMT'
+import ContentSearch from '../Component/Home/ContentSearch'
 
 export default function Home() {
 
@@ -18,8 +17,8 @@ export default function Home() {
 
       <Visual />
       <Content/>
-      <Content_MT/>
-      <Content_Search />
+      <ContentMT/>
+      <ContentSearch />
     </>
 
   )
