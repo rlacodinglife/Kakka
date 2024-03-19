@@ -22,6 +22,8 @@ nav#mobilemenu{
     background:white; 
     overflow:scroll; /* 모바일 메뉴영역을 열렸을때 밖으로 나가서 안보이는것을 방지 ( 스크롤로 보이게함 ) */
     z-index:10; 
+
+    font-family: "Noto Sans Kr";
 }
 
 nav#mobilemenu a{
@@ -53,8 +55,8 @@ div#mobilemenu_inner{
 div#mobilemenu_inner p{
     width:100%; 
     height:180px; 
-    background:#490a73; 
-    font:normal 20px/30px "NanumBarunGothic"; 
+    background:#241c41; 
+    font:normal 20px/30px "Noto Sans Kr"; 
     color:white; 
     padding-top:60px; 
     padding-left:30px; 
@@ -78,8 +80,8 @@ ul#mobileloginmenu{
 ul#mobileloginmenu li{
     width:50%; 
     height:100%; 
-    background:#3c3c3c; 
-    font:normal 14px/50px "NanumBarunGothic";  
+    background:#2b2755; 
+    font:normal 14px/50px "Noto Sans Kr";  
     text-align:center; 
     float:left; 
     border-right:solid 1px white; 
@@ -103,7 +105,7 @@ ul#mobilemenu_list{
 ul#mobilemenu_list>li{
     width:100%; 
     height:55px; 
-    font:normal 14px/55px "NanumBarunGothic"; 
+    font:normal 14px/55px "Noto Sans Kr"; 
     border-bottom:solid 1px #E3E3E3; 
     color: black;
     box-sizing:border-box; 
@@ -144,7 +146,7 @@ ul.mobilesubmenu_list>li{
     width:100%; 
     height:55px; 
     background:#f6f6f6; 
-    font:normal 13px/50px "NanumBarunGothic"; 
+    font:normal 13px/50px "Noto Sans Kr"; 
     border-bottom:solid 1px #E3E3E3; 
     box-sizing:border-box; 
     text-indent:40px; 

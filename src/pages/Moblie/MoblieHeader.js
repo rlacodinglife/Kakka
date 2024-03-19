@@ -128,19 +128,19 @@ export default function MoblieHeader() {
               <li>축제/행사
                 <span className={styles.mobile_icon}><img src="images/mobilemenu_icon04.png" alt="" /></span>
                 <ul className={styles.mobilesubmenu_list}>
-                  <li>월별 일정</li>
-                  <li>지역별 일정</li>
+                <li>월별 일정</li>
+                <li>지역별 일정</li>
                 </ul>
-              </li>
-              <li>먹거리
+                </li>
+                <li>먹거리
                 <span className={styles.mobile_icon}><img src="images/mobilemenu_icon04.png" alt="" /></span>
                 <ul className={styles.mobilesubmenu_list}>
-                  <li>지역별</li>
-                  <li>카페/디저트</li>
-                  <li>주류</li>
+                <li>지역별</li>
+                <li>카페/디저트</li>
+                <li>주류</li>
                 </ul>
-              </li>
-              <li>상품
+                </li>
+                <li>상품
                 <span className={styles.mobile_icon}><img src="images/mobilemenu_icon04.png" alt="" /></span>
                 <ul className={styles.mobilesubmenu_list}>
                   <li></li>
@@ -149,15 +149,15 @@ export default function MoblieHeader() {
                   <li></li>
                   <li></li>
                   <li></li>
-                </ul>
-              </li>
-              <li>고객센터
-                <span className={styles.mobile_icon}><img src="images/mobilemenu_icon04.png" alt="" /></span>
-                <ul className={styles.mobilesubmenu_list}>
+                  </ul>
+                  </li>
+                  <li>고객센터
+                  <span className={styles.mobile_icon}><img src="images/mobilemenu_icon04.png" alt="" /></span>
+                  <ul className={styles.mobilesubmenu_list}>
                   <li>Q&A</li>
                   <li>고객의소리</li>
-                </ul>
-              </li> */}
+                  </ul>
+                </li> */}
             </ul>
           </div>
 
@@ -171,10 +171,10 @@ export default function MoblieHeader() {
             <button className={style.search_btn}><IoIosSearch onClick={menuOpen} /></button>
           </form>
         </div>
-        <div id={styles.mobile_grayLayer} ref={grayLayer}></div>
       </header>
 
       <div className={style.homestate_wrap}>
+       
         <section className={`${style.homestate}`}>
           <ul>
             <li className={style.selected}>
@@ -197,9 +197,9 @@ export default function MoblieHeader() {
             </li>
           </ul>
         </section>
-
+      
       </div>
-
+      <div id={styles.mobile_grayLayer} ref={grayLayer}></div>
     </>
   )
 }
