@@ -1,8 +1,9 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import style from './css/MoblieHeader.module.css'
 import styles from './css/MoblieAcodian.module.css'
-import { IoIosSearch, IoMdMenu, IoMdClose,IoMdArrowDropright } from "react-icons/io";
+import { IoIosSearch, IoMdMenu, IoMdClose, IoMdArrowDropright } from "react-icons/io";
 import gsap from 'gsap';
+// import { faArrowLeftRotate } from '@fortawesome/free-solid-svg-icons';
 
 export default function MoblieHeader() {
 
@@ -21,6 +22,13 @@ export default function MoblieHeader() {
   const menuBtn = useRef()
   const closeBtn = useRef()
   const grayLayer = useRef()
+
+
+  const [selectedIndex, setSelectedIndex] = useState(null)
+
+  const menuActivateIndex = (index) => {
+    setSelectedIndex(index)
+  }
 
   useEffect(() => {
     grayLayer.current.style.display = 'none'
@@ -50,7 +58,7 @@ export default function MoblieHeader() {
     <>
       <header className={style.moblieheader_wrap}>
         <h2 className={style.logo}>
-          <img src='/image/logo1.svg' alt=''/>
+          <img src='/image/logo1.svg' alt='' />
           <span>Kakka</span>
           <IoMdMenu ref={menuBtn} onClick={menuOpen} />
         </h2>
@@ -69,7 +77,11 @@ export default function MoblieHeader() {
               {
                 menus.map((item) => {
                   return (
-                    <li>
+                    <li className={item.index === selectedIndex && styles.selected}
+                      style={item.index === selectedIndex ? { height: 55 + (55 * item.submenuList.length) } : { height: 55 }} onClick={() => {
+                        menuActivateIndex(item.index)
+                        // alert(item.index)
+                      }}>
                       {
                         item.submenuList.length < 1 ?
                           <>
