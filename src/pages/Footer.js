@@ -16,7 +16,7 @@ export default function Footer() {
 
                 </div>
                 <div className={style.footer_eig}>
-                    <p style={{ color: '#FFFFFF' }}>(우)04821 서울특별시 종로구  / Tex :(010)0000-0000</p>
+                    <p style={{ color: '#FFFFFF' }}>(우)00000 서울특별시 종로구  / Tex :(010)0000-0000</p>
                     <p style={{ color: '#FFFFFF' }}> Email :rlacodinglife@gmail.com</p>
                     <p style={{ color: '#FFFFFF' }}>insta: @my_life.ssul</p>
                 </div>
