@@ -41,14 +41,20 @@ div.visual_text {
 
 
 div.blackboard{
-    width: auto;
+    /* width:auto */
+    width: 30%;
     height: auto;
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.452);
     
 }
 
-
+div.visual_backgridi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 70%, rgba(7, 17, 48, 0.8) 100%);
+}
 
 p.text_top {
     font-size: 60px;

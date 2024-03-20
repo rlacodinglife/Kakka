@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    color: #DDDDDD;
+    color: white;
 }
 .hidden {
     width: 1px;
@@ -46,7 +46,7 @@ header{
 h2#logo{
     width: 20%;
     height: auto;
-    background: #32373d21;
+    /* background: #32373d21; */
     
     position: relative;
     display: flex;
@@ -64,12 +64,13 @@ h2#logo>a>img{
     width: 100%;
     height:auto;
     position: relative;
-    top: 12px;
+    top: 15px;
 }
 
 h2#logo>span{
     color: white;
     font: bold 2.25em 'noto Sans Kr';
+    text-indent: 3px;
 }
 
 
@@ -84,7 +85,7 @@ header>nav>div {
 div.top_navlist {
     width: 80%;
     height: auto;
-    background-color: #32373db2;
+    /* background-color: #32373db2; */
     box-sizing: border-box;
 }
 
@@ -102,15 +103,15 @@ div.top_navlist>ul {
 
 }
 
-div.top_navlist>ul.top_icon {
-    /* background-color: red; */
+/* div.top_navlist>ul.top_icon {
+    background-color: red;
     justify-content: space-around;
     margin-left: 30px;
     box-sizing: border-box;
     padding: 0.75em 0px;
     color: #DDDDDD;
 
-}
+} */
 
 /* ul.top_icon>li{
     width: 100%;
@@ -143,15 +144,23 @@ div.top_navlist>ul.top_icon>li:nth-child(6) {
 
 div.top_navlist>ul.top_login {
     width: 40%;
+    height: auto;
     float: right;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 0.75em 0px;
     box-sizing: border-box;
-    color: #DDDDDD;
+    color: white;
+    position: relative;
 }
 
 ul.top_login>li{
-    color: #DDDDDD;
+    /* width: auto;
+    height: auto; */
+    
+    color: white;
 }
 
 div.top_navlist>ul.top_cate_list {
@@ -173,17 +182,26 @@ div.top_navlist>ul.top_cate_list>li{
     height: auto;
     text-align: center;
     padding: 1.25em 0px;
-    color: #DDDDDD;
+    color: white;
     cursor: pointer;
 
     /* border-right: 1px solid #ccc; */
     position: relative;
     box-sizing: border-box;
+    transition: ease-out 100ms;
 }
-div.top_navlist>ul.top_cate_list>li:nth-child(3){
+
+div.top_navlist>ul.top_cate_list>li:hover{
+    /* font-size: 1.25em; */
+    font-weight: bold;
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* div.top_navlist>ul.top_cate_list>li:nth-child(3){
     background-color: #2427A5;
     
-}
+} */
 
 
 div.top_navlist>ul.top_cate_list>li:last-child{
@@ -194,7 +212,15 @@ div.top_navlist>ul.top_cate_list>li:last-child{
 } */
 
 
-
+div.top_navlist>ul.top_login>svg{
+    width: 2.5em;
+    height: 2.5em;
+    transition: ease-out 100ms;
+}
+div.top_navlist>ul.top_login>svg:hover{
+    
+    transform: scale(1.2);
+}
 
 @media screen and (max-width:1260px){
     header{

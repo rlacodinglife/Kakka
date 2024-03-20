@@ -10,6 +10,7 @@ export default function Visual() {
                 <h2 className="hidden">비주얼영역</h2>
                 <ul className="visual_list">
                     <li>
+                        <div className='visual_backgridi' />
                         <div className="visual_text">
                             <div className='blackboard'>
 
@@ -40,10 +41,9 @@ export default function Visual() {
                                 <p className="text_sub">내일뭐하지 오늘뭐하지 어젠뭐했지?</p>
                             </div>
                         </div>
-
                     </li>
                     <button className='left_btn'><FontAwesomeIcon icon={faChevronLeft} size='2x' /></button>
-                    <button className='right_btn'><FontAwesomeIcon icon={faChevronRight}size='2x' /></button>
+                    <button className='right_btn'><FontAwesomeIcon icon={faChevronRight} size='2x' /></button>
                 </ul>
             </section>
 

@@ -59,15 +59,7 @@ export default function BrandList() {
     const categoryItems = getCategoryItems(allbrandlist, categorys)
 
     function getCategoryItems(allbrandlist, categorys) {
-        // if (categorys===categorys) {
-        //     return (
-        //         allbrandlist
-        //     )
-        // } else {
-        //     return (
-        //         allbrandlist.filter((item) => (item.category === categorys))
-        //     )
-        // }
+      
 
        if(changecate==="전체"){
         return (

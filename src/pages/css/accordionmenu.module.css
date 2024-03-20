@@ -20,7 +20,7 @@ nav#mobilemenu {
     right: 0px;
     top: 0px;
     background: rgba(0, 0, 0, 0.781);
-    /* overflow:scroll; */
+    overflow:scroll;
     /* 모바일 메뉴영역을 열렸을때 밖으로 나가서 안보이는것을 방지 ( 스크롤로 보이게함 ) */
     z-index: 11;
 }

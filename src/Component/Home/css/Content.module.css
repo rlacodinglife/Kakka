@@ -54,6 +54,7 @@ ul.Content_box_wrap>li {
 li.Content_img {
     width: 50%;
     height: 300px;
+    /* box-shadow: 10px 10px 30px #616161; */
 }
 
 li.Content_img>img {

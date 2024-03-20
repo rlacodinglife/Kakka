@@ -3,8 +3,10 @@ import Style from './css/Header.module.css'
 import styles from './css/accordionmenu.module.css'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faUserPlus, faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
+import { faUserPlus, faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import { IoMdClose } from "react-icons/io";
+import { IoReorderThree } from "react-icons/io5";
+
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 
@@ -21,7 +23,6 @@ export default function Header() {
         , { index: 4, menu: '먹거리', path: '/', submenuList: [{ index: 0, menu: '지역별 먹거리', path: '/' }, { index: 1, menu: '카페/디저트', path: '/' }, { index: 2, menu: '주류', path: '/' }, { index: 3, menu: '그 외', path: '/' }] }
         , { index: 5, menu: '상품', path: '/', submenuList: [{ index: 0, menu: '여행 패키지', path: '/' }, { index: 1, menu: '굿즈', path: '/' }, { index: 2, menu: '기념품', path: '/' }, { index: 3, menu: '특산품', path: '/' }] }
         , { index: 6, menu: '고객센터', path: '/', submenuList: [{ index: 0, menu: 'Q&A', path: '/' }, { index: 1, menu: '그외', path: '/' }] }
-        , { index: 7, menu: '이외', path: '/', submenuList: [{ index: 0, menu: '이외', path: '/' }] }
     ]
 
     const menuWrap = useRef()
@@ -29,14 +30,21 @@ export default function Header() {
     const closeBtn = useRef()
     const grayLayer = useRef()
 
-    const Mainmenu=useRef()
-    // const subMenuList=useRef()
+    const Mainmenu = useRef()
+    const subMenuList = useRef()
+
+    const [selectedIndex, setSelectedIndex] = useState(null)
 
 
     useEffect(() => {
         menuWrap.current.style.display = 'none'
         menuWrap.current.style.top = '-35vh'
         grayLayer.current.style.display = 'none'
+
+
+        menuWrap.current.style.height = '110px'
+        menuWrap.current.style.overflow = 'hidden'
+
     }, [])
 
     const menuOpen = () => {
@@ -46,7 +54,7 @@ export default function Header() {
         gsap.to(menuWrap.current, { top: 0, duration: .5, ease: 'power1.out' })
     }
     const menuClose = () => {
-    
+
 
         grayLayer.current.style.display = 'none'
         gsap.to(menuWrap.current, {
@@ -55,15 +63,24 @@ export default function Header() {
                 menuWrap.current.style.display = 'none'
             }
 
-            
+
         })
     }
 
-const showSubMenu=()=>{
-    
-}
 
+    const showsubMenu = () => {
+        // gsap.set(menuWrap.current,{overflow:'visible'})
+        gsap.set(subMenuList.current, { display: 'block' })
+        gsap.to(menuWrap.current, { height: '35vh', duration: .5, ease: 'power1.out' })
+        gsap.killTweensOf()
+    }
+    const closesubmenu = () => {
+        gsap.set(subMenuList.current, { display: 'none' })
+        // gsap.set(menuWrap.current,{overflow:'hidden'})
 
+        gsap.to(menuWrap.current, { height: '110', duration: .5, ease: 'power1.out' })
+        gsap.killTweensOf()
+    }
 
 
 
@@ -114,7 +131,7 @@ const showSubMenu=()=>{
                         <span>Kakka</span> </h2>
 
 
-                    <nav id={styles.mobilemenu} ref={menuWrap}>
+                    <nav id={styles.mobilemenu} ref={menuWrap} onMouseLeave={closesubmenu} >
                         <div id={styles.mobilemenu_inner}>
                             <span id={styles.mobileclose_btn}><IoMdClose ref={closeBtn} onClick={menuClose} />
                             </span>
@@ -123,7 +140,7 @@ const showSubMenu=()=>{
                                 {
                                     menu.map((item) => {
                                         return (
-                                            <li ref={Mainmenu} onMouseEnter={showSubMenu}>
+                                            <li ref={Mainmenu} onMouseEnter={showsubMenu}>
                                                 {
                                                     item.submenuList.length < 1 ?
 
@@ -138,7 +155,7 @@ const showSubMenu=()=>{
                                                                 {
                                                                     item.submenuList.map((item) => {
                                                                         return (
-                                                                            <li>{item.menu}</li>
+                                                                            <li ref={subMenuList}>{item.menu}</li>
                                                                         )
                                                                     })
                                                                 }
@@ -203,10 +220,10 @@ const showSubMenu=()=>{
                             <li><a href="#" class="git_icon"><i class="fa-brands fa-github"></i></a></li>
                         </ul> */}
                         <ul className={Style.top_login}>
-                            <li className="login_icon"><FontAwesomeIcon icon={faArrowRightToBracket} />&nbsp;로그인</li>
-                            <li className="regi_icon"><FontAwesomeIcon icon={faUserPlus} />&nbsp;회원가입</li>
-                            <li className='threebars' ref={menuBtn} onClick={menuOpen}>
-                                <FontAwesomeIcon icon={faBars} /></li>
+                            <li className="login_icon"><FontAwesomeIcon icon={faArrowRightToBracket} />&nbsp;&nbsp;로그인</li>
+                            <li className="regi_icon"><FontAwesomeIcon icon={faUserPlus} />&nbsp;&nbsp;회원가입</li>
+                            <IoReorderThree className={Style.threebar} ref={menuBtn} onClick={menuOpen}/>
+
                         </ul>
 
                         <ul className={Style.top_cate_list}>
