@@ -41,11 +41,11 @@ li.introtext>p{
 }
 
 p.name{
-    font:bold 2.2em 'Noto Sans KR';
+    font:bold 1.75em 'Noto Sans KR';
     margin-bottom: 1.5em;
 }
 p.title{
-    font:normal 1.75em'Noto Sans KR';
+    font:normal 1.25em'Noto Sans KR';
     margin-bottom: 1em;
 }
 p.place,.time,.pageurl{
@@ -119,6 +119,6 @@ div.bigimg_wrap>p{
         width: 75%;
     }
     div.intro_wrap{
-        font-size: 14px;
+        font-size: 13px;
     }
 }

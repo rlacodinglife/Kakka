@@ -54,7 +54,7 @@ export default function Subpage() {
               <p className={style.pageurl}>{selectedItem?.pageurl}</p>
               <p className={style.text}>{selectedItem?.intro}</p>
               <div className={style.introimg_wrap}>
-                <img className={style.introimg} src='/image/Subpage/small1.png' alt='작은이미지' />
+                <img className={style.introimg} src={'/image/Subpage/small1.png'} alt='작은이미지' />
                 <img className={style.introimg} src='/image/Subpage/small2.png' alt='작은이미지' />
                 <img className={style.introimg} src='/image/Subpage/small3.png' alt='작은이미지' /></div>
             </li>

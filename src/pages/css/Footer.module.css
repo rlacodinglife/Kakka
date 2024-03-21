@@ -2,7 +2,7 @@
 
 footer.footer {
     width: 100%;
-    height: 200px;
+    height: 100px;
     
     background-color: #24292F;
     
@@ -10,7 +10,7 @@ footer.footer {
 }
 div.footer_wrap {
     width: 1200px;
-    height: 200px;
+    height: 100px;
     margin: 0px auto;
 
     background-color: #24292F;
@@ -47,7 +47,7 @@ div.footer_eig {
 }
 
 div.footer_eig>p {
-    font: normal 1.25em "Noto Sans Kr";
+    font: normal 1em "Noto Sans Kr";
     color: aliceblue;
 }
 
