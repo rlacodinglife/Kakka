@@ -1,17 +1,4 @@
-/* 
-html,body{
-    height:100%;
-}
 
-header{
-    width:100%; 
-    height:70px; 
-    background:rgba(73,10,115,1); 
-    position:absolute; 
-    left:0px; 
-    top:0px;     
-    z-index:1;
-}  */
 
 nav#mobilemenu {
     width: 100vw;

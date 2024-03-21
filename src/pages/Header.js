@@ -17,7 +17,7 @@ export default function Header() {
 
     const menu = [
         { index: 0, menu: '전체메뉴', path: '/', submenuList: [] }
-        , { index: 1, menu: '여행', path: '/', submenuList: [{ index: 0, menu: '관광', path: '/' }, { index: 1, menu: '등산', path: '/' }, { index: 2, menu: '숙소', path: '/' }] }
+        , { index: 1, menu: '여행', path: '/brand', submenuList: [{ index: 0, menu: '관광', path: '/' }, { index: 1, menu: '등산', path: '/' }, { index: 2, menu: '숙소', path: '/' }] }
         , { index: 2, menu: '공연/전시', path: '/', submenuList: [{ index: 0, menu: '전시회 일정', path: '/' }, { index: 1, menu: '공연 일정', path: '/' }, { index: 2, menu: '박람회일정', path: '/' }] }
         , { index: 3, menu: '축제/행사', path: '/', submenuList: [{ index: 0, menu: '월별 일정', path: '/' }, { index: 1, menu: '지역별 일정', path: '/' }] }
         , { index: 4, menu: '먹거리', path: '/', submenuList: [{ index: 0, menu: '지역별 먹거리', path: '/' }, { index: 1, menu: '카페/디저트', path: '/' }, { index: 2, menu: '주류', path: '/' }, { index: 3, menu: '그 외', path: '/' }] }
@@ -36,6 +36,7 @@ export default function Header() {
     const [selectedIndex, setSelectedIndex] = useState(null)
 
 
+    
     useEffect(() => {
         menuWrap.current.style.display = 'none'
         menuWrap.current.style.top = '-35vh'
@@ -69,9 +70,10 @@ export default function Header() {
 
 
     const showsubMenu = () => {
+        let Wrap=55+(5*55)
         // gsap.set(menuWrap.current,{overflow:'visible'})
-        gsap.set(subMenuList.current, { display: 'block' })
-        gsap.to(menuWrap.current, { height: '35vh', duration: .5, ease: 'power1.out' })
+        gsap.set(subMenuList.current, { display: 'block',})
+        gsap.to(menuWrap.current, { height: Wrap, duration: .5, ease: 'power1.out' })
         gsap.killTweensOf()
     }
     const closesubmenu = () => {
@@ -124,7 +126,7 @@ export default function Header() {
     return (
 
         <div id={Style.header_wrap}>
-            <header>
+            <header id={Style.header}>
                 <nav>
 
                     <h2 id={Style.logo}><Link to={"/"}><img src='/image/logo1.png' alt='로고이미지' /></Link>

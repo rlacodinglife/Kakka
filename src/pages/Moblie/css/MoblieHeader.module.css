@@ -1,7 +1,14 @@
-header {
+header.moblieheader_wrap {
     width: 100%;
-    height: auto;
-    background-color: #F2F6F7;
+
+  
+
+    box-sizing: border-box;
+    margin: 0px auto;
+
+    color: #DDDDDD;
+
+
 }
 
 header>h2 {
@@ -15,22 +22,25 @@ header>h2 {
 
 h2>img {
     width: 5%;
-   
+
 }
 
 h2>span {
     font: bold 1em "Noto Sans Kr";
     color: #000000;
 }
+
 h2>svg {
     position: absolute;
     right: 2vw;
     top: 2vh;
-    width: 30px;height: 30px;
+    width: 30px;
+    height: 30px;
     color: #000000;
-    
-    
+
+
 }
+
 div.search_box {
     width: 75%;
     margin: 0px auto;
@@ -41,27 +51,28 @@ div.search_box>form {
     width: 100%;
     height: auto;
     display: flex;
-    position:relative;
+    position: relative;
     left: 0px;
-    top: 0px;    
-    
+    top: 0px;
+
 }
 
-div.search_box>form>input{
+div.search_box>form>input {
     width: 100%;
     height: 40px;
     border-radius: 20px;
     text-indent: 1em;
 
 }
-div.search_box>form>input::placeholder{
+
+div.search_box>form>input::placeholder {
     color: #5C5C5C;
     font: bold 1em "Noto Sans Kr";
     text-indent: 1em;
 }
 
 
-button.search_btn{
+button.search_btn {
     width: 10%;
 
     position: absolute;
@@ -72,10 +83,11 @@ button.search_btn{
     border-radius: 20px;
     background: none;
     border: none;
-    
+
 }
-button.search_btn>svg{
-    width:2em;
+
+button.search_btn>svg {
+    width: 2em;
     height: 2em;
 }
 
@@ -89,7 +101,9 @@ div.homestate_wrap {
 
     padding: 10px 0px;
     box-sizing: border-box;
+    /* background: #F2F6F7; */
     background: #F2F6F7;
+    margin-top: 30px;
 }
 
 
@@ -111,6 +125,16 @@ section.homestate>ul {
     justify-content: space-around;
     color: #808080;
 }
+
+li.MoblieState{
+    font: bold 1em "Noto Sans Kr";
+}
+
+li.MoblieState:hover{
+    color: black;
+}
+
+
 /* p.categorylist{
 text-align: center;
 font-size: 1em;

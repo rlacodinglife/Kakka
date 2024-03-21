@@ -18,7 +18,8 @@ div.borad_wrap {
 
 .board_title p {
     margin-top: 5px;
-    font-size: 1.4rem;
+    font-size: 1em;
+    line-height: 400%;
 }
 
 .bt_wrap {
@@ -51,7 +52,7 @@ div.borad_wrap {
     display: inline-block;
     vertical-align: middle;
     padding: 15px 0;
-    font-size: 1.4rem;
+    font-size: .875em;
 }
 
 .board_list>div.top>div {
@@ -86,5 +87,6 @@ div.borad_wrap {
 @media screen and (max-width:1260px) {
     div.borad_wrap {
         width: 75%;
+        font-size: 14px;
     }
 }

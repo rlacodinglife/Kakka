@@ -15,7 +15,7 @@ section.visual {
 
 
 ul.visual_img {
-    width: 300%;
+    width: 100%;
     height: auto;
 
 }
@@ -47,5 +47,6 @@ p.visual_title {
     font-weight: bold;
     font-size: 1em;
     border-radius: 20px;
+    font: bold 0.875em "Noto Sans Kr";
 }
 

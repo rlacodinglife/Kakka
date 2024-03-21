@@ -72,7 +72,7 @@ div.content_textwrap {
 }
 
 p.content_place{
-    font-size: 1.5em;
+    font-size: 1em;
     margin-bottom: 10%;
     position: absolute;
     top: 0px;
@@ -89,7 +89,7 @@ p.content_title {
 }
 
 p.content_text {
-    font-size: 1.75em;
+    font-size: 1em;
     width: 100%;
     position: absolute;
     bottom: 0px;
@@ -131,22 +131,25 @@ section.brandstate>ul{
 p.categorylist{
 text-align: center;
 font-size: 1em;
+/* font-weight: ; */
 }
+
+/* section.brandstate>ul>li{
+    
+} */
 
 section.brandstate>ul>li>img{
     width: 100%;
-    height: 50px;
+    height: auto;
 }
 
 .selected{
     border-bottom: soild 3px black;
 }
 
-@media screen and (max-width:1260px) {
-    section.brandstate{
-        width: 75%;
-    }
-}
+/* @media screen and (max-width:1260px) {
+    
+} */
 
 @media screen and (max-width:1260px) {
     section.brandlist {
@@ -154,5 +157,8 @@ section.brandstate>ul>li>img{
     }
     div.brandlist_wrap{
         font-size: 14px;
+    }
+    section.brandstate{
+        width: 75%;
     }
 }

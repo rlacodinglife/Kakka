@@ -7,6 +7,8 @@ import gsap from 'gsap';
 
 export default function MoblieHeader() {
 
+  const MoblieState = ['홈', '여행', '공연/전시', '축제/행사', '맛집', '상품']
+
   const menus = [
     { index: 0, menu: '전체메뉴', path: '/', submenuList: [] }
     , { index: 1, menu: '여행', path: '/', submenuList: [{ index: 0, menu: '관광', path: '/' }, { index: 1, menu: '등산', path: '/' }, { index: 2, menu: '숙소', path: '/' }] }
@@ -41,6 +43,7 @@ export default function MoblieHeader() {
     grayLayer.current.style.display = 'block'
     menuWrap.current.style.display = 'block'
     gsap.to(menuWrap.current, { right: 0, duration: .5, ease: 'power1.out' })
+    
   }
   const menuClose = () => {
     grayLayer.current.style.display = 'none'
@@ -65,14 +68,16 @@ export default function MoblieHeader() {
 
         <nav id={styles.mobilemenu} ref={menuWrap}>
           <div id={styles.mobilemenu_inner}>
-            <p>환영합니다.<br />로그인 해주세요.
+            {/* <p>환영합니다.<br />로그인 해주세요.
               <span id={styles.mobileclose_btn} ><IoMdClose ref={closeBtn} onClick={menuClose} />
               </span>
             </p>
             <ul id={styles.mobileloginmenu}>
               <li>로그인</li>
               <li>회원가입</li>
-            </ul>
+            </ul> */}
+            <p id={styles.mobileclose_btn} ><IoMdClose ref={closeBtn} onClick={menuClose} />
+            </p>
             <ul id={styles.mobilemenu_list}>
               {
                 menus.map((item) => {
@@ -174,10 +179,20 @@ export default function MoblieHeader() {
       </header>
 
       <div className={style.homestate_wrap}>
-       
+
         <section className={`${style.homestate}`}>
           <ul>
-            <li className={style.selected}>
+            {
+              MoblieState.map((item) => {
+                return (
+                  <li className={style.MoblieState}>
+                    {item}
+                  </li>
+                )
+              })
+            }
+
+            {/* <li className={style.selected}>
               홈
             </li>
             <li>
@@ -194,10 +209,10 @@ export default function MoblieHeader() {
             </li>
             <li>
               상품
-            </li>
+            </li> */}
           </ul>
         </section>
-      
+
       </div>
       <div id={styles.mobile_grayLayer} ref={grayLayer}></div>
     </>

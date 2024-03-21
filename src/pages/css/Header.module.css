@@ -18,7 +18,7 @@ div#header_wrap{
     z-index: 10;
 }
 
-header{
+header#header{
       width: 1200px;
     
     background: #24282E;
@@ -32,27 +32,33 @@ header{
     
 }
 
-
+.selected{
+    width: 0%;
+    height: 0px;
+    transition: ease 0.5s;
+}
 .selected::after{
     content: '';
     position: absolute;
     width: 75%;
     height: 2px;
     background-color: #DDDDDD;  
-    top: 40px;
+    top: 50px;
     left: 12%;
 }
 
 h2#logo{
     width: 20%;
-    height: auto;
+    height: 80px;
     /* background: #32373d21; */
     
     position: relative;
+    top: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    
 
     float: left;
 padding: 1.2% 0;
@@ -184,7 +190,7 @@ div.top_navlist>ul.top_cate_list>li{
     padding: 1.25em 0px;
     color: white;
     cursor: pointer;
-
+    font-size: 1.2em;
     /* border-right: 1px solid #ccc; */
     position: relative;
     box-sizing: border-box;
@@ -223,7 +229,7 @@ div.top_navlist>ul.top_login>svg:hover{
 }
 
 @media screen and (max-width:1260px){
-    header{
+    header#header{
         width: 75%;
         font-size: 12px;
     }
