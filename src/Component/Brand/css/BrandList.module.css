@@ -139,7 +139,7 @@ section.brandstate>ul>li{
  display: flex;
  flex-direction: column;
     align-items: center;
-
+cursor: pointer;
 }
 section.brandstate>ul>li>img{
     width: 60%;

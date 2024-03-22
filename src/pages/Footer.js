@@ -7,12 +7,12 @@ import style from './css/Footer.module.css'
 export default function Footer() {
 
     // const {darkMode,toggleDarkMode}=useContext(DarkModeContext)
-
+let qwe='./image/logontext.png'
     return (
         <footer className={style.footer}>
             <div className={style.footer_wrap}>
                 <div className={style.footer_two}>
-                    <img src='./image/logontext.png' alt='' />
+                    <img src={qwe} alt='' />
 
                 </div>
                 <div className={style.footer_eig}>

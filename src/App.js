@@ -12,6 +12,7 @@ import Customer from './pages/Customer';
 import MoblieBrand from './pages/Moblie/MoblieBrand';
 
 function App() {
+  
   let router = null;
 
   if (isMobile) {

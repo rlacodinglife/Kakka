@@ -5,6 +5,11 @@
             "category": "여행",
             "place": "경주",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/submain.png?alt=media&token=dab68b91-d807-4551-95d4-8e7094b952bd",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/submain.png?alt=media&token=dab68b91-d807-4551-95d4-8e7094b952bd",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "대릉원지구",
             "isbest": true,
             "path": "",
@@ -27,6 +32,11 @@
             "category": "공연/전시",
             "place": "분당",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/art02.png?alt=media&token=547a0437-920d-42ab-a9d5-c7bdaae59abb",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/art02.png?alt=media&token=547a0437-920d-42ab-a9d5-c7bdaae59abb",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "세텍펫페어",
             "isbest": true,
             "path": "",
@@ -49,6 +59,11 @@
             "category": "공연/전시",
             "place": "진주",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/art03.png?alt=media&token=c61e7894-b965-434a-b89c-93910aa31e45",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/art03.png?alt=media&token=c61e7894-b965-434a-b89c-93910aa31e45",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "남강유등축제",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -70,6 +85,11 @@
             "category": "축제/행사",
             "place": "서울",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest01.png?alt=media&token=430778b3-c93f-4c1d-b0e3-6a7d625d5e39",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest01.png?alt=media&token=430778b3-c93f-4c1d-b0e3-6a7d625d5e39",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "스폰지밥팝업",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -91,6 +111,11 @@
             "category": "축제/행사",
             "place": "광양",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest02.png?alt=media&token=e8a2e744-f7e7-42e6-801f-839c1695ec5d",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest02.png?alt=media&token=e8a2e744-f7e7-42e6-801f-839c1695ec5d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "광양매화축제",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -112,6 +137,11 @@
             "category": "축제/행사",
             "place": "남원",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest03.png?alt=media&token=442a0dee-8fbc-4554-bf1f-d92421c6f68a",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/fest03.png?alt=media&token=442a0dee-8fbc-4554-bf1f-d92421c6f68a",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "지리산 고로쇠축제",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -133,6 +163,11 @@
             "category": "맛집",
             "place": "서울",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food01.png?alt=media&token=6acfacd1-6a2b-4ec2-90b9-67d4f07460f9",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food01.png?alt=media&token=6acfacd1-6a2b-4ec2-90b9-67d4f07460f9",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "맛있는 피자",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -154,6 +189,11 @@
             "category": "맛집",
             "place": "부산",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food02.png?alt=media&token=bf7989c6-a1f0-4933-b0e7-5707e10fb964",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food02.png?alt=media&token=bf7989c6-a1f0-4933-b0e7-5707e10fb964",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "이가네 떡볶이",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -175,6 +215,11 @@
             "category": "맛집",
             "place": "전주",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food03.png?alt=media&token=394dfdb0-3ae0-471c-b514-197c97cdc3a4",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food03.png?alt=media&token=394dfdb0-3ae0-471c-b514-197c97cdc3a4",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "라면먹고갈래?",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -196,6 +241,11 @@
             "category": "맛집",
             "place": "나주",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food04.png?alt=media&token=84de164a-eebb-43b1-bcfb-9d9e4231396f",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/food04.png?alt=media&token=84de164a-eebb-43b1-bcfb-9d9e4231396f",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "나주한상한정식",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -217,6 +267,11 @@
             "category": "상품",
             "place": "천북",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift01.png?alt=media&token=bb1b506b-63a3-4214-b2c6-bae95a76bf75",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift01.png?alt=media&token=bb1b506b-63a3-4214-b2c6-bae95a76bf75",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "개화예술공원",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -238,6 +293,11 @@
             "category": "상품",
             "place": "서울",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift02.png?alt=media&token=6277858d-f2ae-47cf-b0dc-781848a9bc9f",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift02.png?alt=media&token=6277858d-f2ae-47cf-b0dc-781848a9bc9f",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "국립중앙박물관",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -259,6 +319,11 @@
             "category": "상품",
             "place": "제주",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift03.png?alt=media&token=ff0cc173-8934-4553-95a5-1964eb33abce",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/gift03.png?alt=media&token=ff0cc173-8934-4553-95a5-1964eb33abce",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "한라봉문화마을",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -280,6 +345,11 @@
             "category": "여행",
             "place": "광양",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour01.png?alt=media&token=80918598-fb1b-4d5f-9211-93947b84e1be",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour01.png?alt=media&token=80918598-fb1b-4d5f-9211-93947b84e1be",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "광양매화축제",
             "isbest": true,
             "name": "세텍 펫페어",
@@ -301,6 +371,11 @@
             "category": "여행",
             "place": "포항",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour02.png?alt=media&token=61425d2f-02d7-4e8e-9125-0908e740b85e",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour02.png?alt=media&token=61425d2f-02d7-4e8e-9125-0908e740b85e",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "포항 스페이스워크",
             "isbest": true,
             "name": "포항 스페이스워크",
@@ -322,6 +397,11 @@
             "category": "여행",
             "place": "강릉",
             "image": "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour03.png?alt=media&token=781f9c7b-f68d-4f92-89c6-05e836bbb00b",
+            "thumimage": [
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/tour03.png?alt=media&token=781f9c7b-f68d-4f92-89c6-05e836bbb00b",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub1.png?alt=media&token=d741849d-cb6b-4ca3-ac7b-57b4bbc7e73d",
+                "https://firebasestorage.googleapis.com/v0/b/kakka-432b5.appspot.com/o/sub2.png?alt=media&token=0a83cf8c-5f0b-44c4-bc01-86a8f38179fb"
+            ],
             "text": "강릉항 애견동반카페",
             "isbest": true,
             "name": "강릉항 카페",
