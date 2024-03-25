@@ -33,7 +33,6 @@ export default function Header() {
     const Mainmenu = useRef()
     const subMenuList = useRef()
 
-    const [selectedIndex, setSelectedIndex] = useState(null)
 
 
     

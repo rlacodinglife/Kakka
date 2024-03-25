@@ -1,13 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import CustomerVisual from '../Component/Customer/CustomerVisual'
 import style from '../Component/Customer/css/CustomerBorad.module.css'
-import CustomerBorad from '../Hooks/CustomerBorad'
 
 
 export default function Customer() {
 
-  const [boradlist] = CustomerBorad()
+  const [boradlist,setboradlist] = CustomerBorad()
+  
+  function CustomerBorad(){
+    const [boradlist,setboradlist]=useState([])
+    
+    return [boradlist,setboradlist]
+  }
 
+  const addboard = () => {
+    // e.preventDefault()
+    let title = prompt('글제목을 입력하세요')
+    let writer = prompt('작성자 이름 입력해주세요')
+    let count = boradlist.length + 1
+
+
+    setboradlist((prev)=>{
+      return(
+        [...prev,{title,writer,count}]
+      )
+    })
+  }
 
   return (
     <>
@@ -44,7 +62,7 @@ export default function Customer() {
         }
 
         <div className={style.bt_wrap}>
-          <button>등록</button>
+          <button onClick={addboard}>등록</button>
           <button>수정</button>
         </div>
 

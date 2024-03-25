@@ -3,9 +3,8 @@ import { useParams } from 'react-router-dom';
 import SubpageVisual from '../Component/Subpage/SubpageVisual'
 import style from '../Component/Subpage/css/SubpageIntro.module.css'
 import { MdPlace } from "react-icons/md";
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getProductDetail } from '../api/firebase';
-import gsap from 'gsap';
 
 
 export default function Subpage() {
