@@ -35,7 +35,7 @@ export default function Header() {
 
 
 
-    
+
     useEffect(() => {
         menuWrap.current.style.display = 'none'
         menuWrap.current.style.top = '-35vh'
@@ -69,9 +69,9 @@ export default function Header() {
 
 
     const showsubMenu = () => {
-        let Wrap=55+(5*55)
+        let Wrap = 55 + (5 * 55)
         // gsap.set(menuWrap.current,{overflow:'visible'})
-        gsap.set(subMenuList.current, { display: 'block',})
+        gsap.set(subMenuList.current, { display: 'block', })
         gsap.to(menuWrap.current, { height: Wrap, duration: .5, ease: 'power1.out' })
         gsap.killTweensOf()
     }
@@ -100,7 +100,7 @@ export default function Header() {
     }, {
         id: "003",
         menu: "이벤트",
-        path: "/"
+        path: "/event"
     }, {
         id: "004",
         menu: "고객센터",
@@ -223,7 +223,7 @@ export default function Header() {
                         <ul className={Style.top_login}>
                             <li className="login_icon"><FontAwesomeIcon icon={faArrowRightToBracket} />&nbsp;&nbsp;로그인</li>
                             <li className="regi_icon"><FontAwesomeIcon icon={faUserPlus} />&nbsp;&nbsp;회원가입</li>
-                            <IoReorderThree className={Style.threebar} ref={menuBtn} onClick={menuOpen}/>
+                            <IoReorderThree className={Style.threebar} ref={menuBtn} onClick={menuOpen} />
 
                         </ul>
 
@@ -231,8 +231,9 @@ export default function Header() {
                             {
                                 menus.map((item) => {
                                     return (
-                                        <li className={item.menu === selectmenu && Style.selected} onClick={() => { changemenu(item.menu) }}><Link to={item.path}>
-                                            {item.menu}</Link></li>)
+                                        <li className={item.menu === selectmenu && Style.selected} onClick={() => { changemenu(item.menu) }}>
+                                            <Link to={item.path}>
+                                                {item.menu}</Link></li>)
 
                                 })
                             }

@@ -4,7 +4,6 @@ div.visual_wrap {
     height: auto;
     position: relative;
     color: #DDDDDD;
-    font-family: 'Noto Sans Kr';
 }
 .hidden {
     width: 1px;
@@ -53,8 +52,7 @@ div.blackboard{
     height: auto;
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.452);
-    padding: 3% 0;
-    box-sizing: border-box;
+    
 }
 
 
